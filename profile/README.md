@@ -1,10 +1,6 @@
-<div align="center">
-  <a align="center" href="https://senpi.ai" target="_blank">
-    <img src="../assets/logo.avif" alt="Senpi AI" height=50/>
-  </a>
-  <h1 align="center">Senpi AI</h1>
-  <p align="center"><strong>AI that runs your Hyperliquid strategy while you sleep.</strong></p>
-</div>
+# Senpi
+
+**AI that runs your Hyperliquid strategy while you sleep.**
 
 Senpi is an autonomous trading platform for [Hyperliquid](https://hyperliquid.xyz). You describe what you want in plain English; a Senpi agent reads the whole market, finds the edge, sizes the trade, protects the position, and keeps working 24/7 — across crypto, equities, commodities, indices, and pre-IPO names.
 
@@ -17,10 +13,10 @@ Under the hood is the **Senpi Hyperliquid AI Harness**: a market-tuned model wra
 | Layer | What it is |
 |---|---|
 | **Senpi Samurai** | Our own model, tuned specifically for Hyperliquid — *Light* (256K context, everyday) and *Heavy* (1M, deep jobs). |
-| **The Harness** | The disciplined execution layer around the model: skills-first routing, 62 MCP tools, and a runtime supervisor that owns sizing, risk gates, and two-phase stop-loss exits. |
+| **The Harness** | The disciplined execution layer around the model: skills-first routing, 62 MCP tools, and a runtime supervisor that owns conviction-weighted sizing, a **two-phase dynamic stop-loss** (survive first, then ratchet profit), and a **risk engine** of daily-loss / drawdown circuit breakers and turnover brakes — enforced every tick, un-promptable. |
 | **Telemetry** | Every decision an agent makes is logged to an event stream — so it can review and improve its own trades, run health checks, and give you a full audit trail of what it did and why. |
 | **Skills** | Reusable agent capabilities — analyze your portfolio, read the market, follow smart money, vet traders to copy, pick / build / deploy a strategy, and review your trades. **Open source.** |
-| **Strategy templates** | 80+ deployable trading strategies, each a market thesis on its own funded wallet — forward-tested across $10M+ in notional trade value; agents have since traded $30M+ in the public Arena. **Open source.** |
+| **Strategy templates** | 80+ deployable strategies spanning the range — trend-followers, contrarian faders, single-asset specialists, copy-traders, macro regime allocators, market-neutral and tail-risk funds — across crypto, equities, commodities, indices, and pre-IPO. Each a market thesis on its own funded wallet, forward-tested across $10M+ in notional trade value; agents have since traded $30M+ in the public Arena. **Open source.** |
 
 ### Open source
 
@@ -39,4 +35,4 @@ We open-source the parts you'd want to read, audit, and fork:
 
 Backed by [Lemniscap](https://lemniscap.com) and [Coinbase Ventures](https://www.coinbase.com/ventures).
 
-<sub>Trading perpetual futures carries substantial risk of loss. Senpi is software, not financial advice.</sub>
+*Trading perpetual futures carries substantial risk of loss. Senpi is software, not financial advice.*
