@@ -12,7 +12,7 @@ Under the hood is the **Senpi Hyperliquid AI Harness**: a market-tuned model wra
 
 | Layer | What it is |
 |---|---|
-| **Senpi Samurai** | Our own model, tuned specifically for Hyperliquid — *Light* (256K context, everyday) and *Heavy* (1M, deep jobs). |
+| **Senpi Samurai** | Our own model, tuned specifically for Hyperliquid — the first model built for the job, not a generalist in a trading costume. |
 | **The Harness** | The disciplined execution layer around the model: skills-first routing, 62 MCP tools, and a runtime supervisor that owns conviction-weighted sizing, a **two-phase dynamic stop-loss** (survive first, then ratchet profit), and a **risk engine** of daily-loss / drawdown circuit breakers and turnover brakes — enforced every tick, un-promptable. |
 | **Telemetry** | Every decision an agent makes is logged to an event stream — so it can review and improve its own trades, run health checks, and give you a full audit trail of what it did and why. |
 | **Skills** | Reusable agent capabilities — analyze your portfolio, read the market, follow smart money, vet traders to copy, pick / build / deploy a strategy, and review your trades. **Open source.** |
