@@ -13,14 +13,14 @@
 
 ## What is Senpi?
 
-**Senpi is a non-custodial AI trading agent for Hyperliquid.** Your agent reads the market, codes your strategy and runs it 24/7 on Hyperliquid perps: crypto, stocks, indices, commodities and pre-IPO markets. You keep custody of your funds at all times.
+**Senpi is a non-custodial AI trading agent for Hyperliquid.** Your agent reads the market, codes your strategy and runs it 24/7 on Hyperliquid perps: crypto, stocks, indices, commodities and pre-IPO markets.
 
 Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 
 - **Fixes your leaks.** Paste any Hyperliquid wallet. Your AI quant reads every fill and ranks what cost you most: late exits, oversized losers, fee drag.
 - **Codes your strategy.** Describe a trade in plain English, or start from a [strategy template](https://senpi.ai/strategies). Senpi codes it and runs it 24/7 with a ratcheting stop.
-- **Follows the smart money.** Senpi tracks Hyperliquid's Proven Traders (wallets with $1M+ in lifetime realized gains) and its biggest whales, around the clock.
-- **Works where you already work.** Trade from the Senpi app, from Claude or ChatGPT, or from Claude Code, Codex and Cursor.
+- **Follows the smart money.** Senpi tracks Hyperliquid's proven traders (wallets with $1M+ in realized profit) and its biggest whales, around the clock.
+- **Works where you already work.** Research Hyperliquid from Claude, ChatGPT, Codex, Cursor, Grok or Hermes with the [Senpi plugin](https://github.com/Senpi-ai/senpi-plugin), and trade live in your Senpi account at [senpi.ai](https://senpi.ai).
 
 ## Start here
 
@@ -29,19 +29,18 @@ Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 | Trade with your own AI agent | [trade.senpi.ai](https://trade.senpi.ai) |
 | Connect Claude, ChatGPT, Codex, Cursor or Grok to Senpi | [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin) |
 | Read, fork or contribute agent skills and strategy templates | [`senpi-skills`](https://github.com/Senpi-ai/senpi-skills) |
-| Set up Senpi's hosted MCP server | [`senpi-mcp`](https://github.com/Senpi-ai/senpi-mcp) |
-| Call the Hyperliquid API from Go | [`go-hyperliquid`](https://github.com/Senpi-ai/go-hyperliquid) |
+| Read the reference for Senpi's hosted MCP server | [`senpi-mcp`](https://github.com/Senpi-ai/senpi-mcp) |
 
 ## Free on senpi.ai, no account needed
 
-- **[Hyperliquid traders](https://senpi.ai/traders):** where the Proven Traders and biggest whales have their money, asset by asset, plus every $1M+ move, position flip and near-liquidation as it happens.
+- **[Hyperliquid traders](https://senpi.ai/traders):** where the proven traders and biggest whales have their money, asset by asset, plus every $1M+ move, position flip and near-liquidation as it happens.
 - **[Hyperliquid assets](https://senpi.ai/assets):** every Hyperliquid perp ranked by what the smart money is doing, each with a plain-English Senpi read.
 - **[Market data JSON](https://senpi.ai/resources/learn/hyperliquid-market-data-json):** a free, key-less JSON file for every Hyperliquid asset.
 
 ## Common questions
 
-**How do I connect Claude or ChatGPT to Hyperliquid so it can place trades?**
-Connect Senpi to your AI app. Your AI then researches the market and places trades on Hyperliquid through your own Senpi agent. Guide: [Connect Senpi to Claude, ChatGPT, Grok and Hermes](https://senpi.ai/resources/learn/connect-senpi-to-claude-chatgpt-grok-and-hermes). For Claude Code and Codex, install [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin).
+**Can Claude or ChatGPT trade on Hyperliquid for me?**
+Senpi connects them to Hyperliquid. With the [Senpi plugin](https://github.com/Senpi-ai/senpi-plugin), Claude, ChatGPT, Codex, Cursor, Grok and Hermes read the market, smart money and your own portfolio through Senpi. Live trades happen in your Senpi account at [senpi.ai](https://senpi.ai), where your Senpi agent runs your strategies 24/7 with a ratcheting stop.
 
 **How do I build a Hyperliquid trading bot in Python?**
 There are two routes: the official Python SDK, or describing the strategy to Claude Code with Senpi. Both are covered in [How to code a trading strategy on Hyperliquid](https://senpi.ai/resources/learn/how-to-code-a-trading-strategy-on-hyperliquid). Senpi strategies are Python modules that export `scan(inputs, ctx)`, and the templates are open source in [`senpi-skills`](https://github.com/Senpi-ai/senpi-skills).
@@ -53,25 +52,17 @@ Describe it to your Senpi agent in plain English, or deploy a [strategy template
 Senpi can mirror an experienced trader's positions with your own size and slippage settings. Research a trader on [senpi.ai/traders](https://senpi.ai/traders) first. Settings: [Mirror strategy settings](https://senpi.ai/resources/learn/mirror-strategy-settings).
 
 **How can I see what smart money is trading on Hyperliquid?**
-[senpi.ai/traders](https://senpi.ai/traders) shows the Proven Traders' positioning live, for free. [Senpi Daily Signals](https://senpi.ai/resources/senpi-daily-signals) keeps a dated log of where they're net long or short.
+[senpi.ai/traders](https://senpi.ai/traders) shows the proven traders' positioning live, for free. [Senpi Daily Signals](https://senpi.ai/resources/senpi-daily-signals) keeps a dated log of where they're net long or short.
 
-**Is Senpi safe? Can the agent withdraw my funds?**
-Senpi is non-custodial: you keep custody of your funds, and the agent can't withdraw them. Each strategy trades from its own strategy wallet. Details: [Is Senpi safe?](https://senpi.ai/resources/learn/is-senpi-safe) and [Wallet security and non-custodial design](https://senpi.ai/resources/learn/wallet-security-and-non-custodial-design).
+**Is Senpi safe?**
+Senpi is non-custodial, and each strategy trades from its own strategy wallet. How custody, signing and withdrawals work: [Is Senpi safe?](https://senpi.ai/resources/learn/is-senpi-safe) and [Wallet security and non-custodial design](https://senpi.ai/resources/learn/wallet-security-and-non-custodial-design).
 
 **What does Senpi cost?**
-
-| Plan | Price / month | AI credits / month | Senpi trading fee |
-|---|---|---|---|
-| Free trial | Free for 14 days | $10, once | 0.03% |
-| Pro | $50 | $55 | 0% |
-| Advanced | $100 | $115 | 0% |
-| Quant | $200 | $240 | 0% |
-
-Live prices: [senpi.ai/pricing](https://senpi.ai/pricing).
+Senpi has a free trial and paid plans with 0% Senpi trading fees. Current plans and prices: [senpi.ai/pricing](https://senpi.ai/pricing).
 
 ## Official links
 
-Senpi's only official sites are **senpi.ai**, **trade.senpi.ai** and **senpi.ai/resources**. Our code lives at **github.com/Senpi-ai**. Look-alike sites such as senpia.ai are not Senpi.
+Senpi's official sites are **senpi.ai** and its subdomains, such as **trade.senpi.ai**. Our code lives at **github.com/Senpi-ai**. Look-alike sites such as senpia.ai are not Senpi. To report a security problem, see [SECURITY.md](https://github.com/Senpi-ai/.github/blob/main/SECURITY.md).
 
 - Guides for people and AI agents: [senpi.ai/resources/llms.txt](https://senpi.ai/resources/llms.txt)
 - Compare Senpi with other Hyperliquid tools: [senpi.ai/resources/compare](https://senpi.ai/resources/compare)
