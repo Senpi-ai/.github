@@ -12,7 +12,7 @@ Email **support@senpi.ai** with "Security" in the subject line. Include what you
 
 ## Official Senpi sites and accounts
 
-- Websites: **senpi.ai** and its subdomains, such as **trade.senpi.ai**
+- Websites: **senpi.ai** and its subdomains, such as **mcp.senpi.ai**
 - Code: **github.com/Senpi-ai**
 - X: [@senpi_ai](https://x.com/senpi_ai)
 
