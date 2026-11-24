@@ -20,14 +20,15 @@ Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 - **Fixes your leaks.** Paste any Hyperliquid wallet. Your AI quant reads every fill and ranks what cost you most: late exits, oversized losers, fee drag.
 - **Codes your strategy.** Describe a trade in plain English, or start from a [strategy template](https://senpi.ai/strategies). Senpi codes it and runs it 24/7 with a ratcheting stop.
 - **Follows the smart money.** Senpi tracks Hyperliquid's proven traders (wallets with $1M+ in realized profit) and its biggest whales, around the clock.
-- **Works where you already work.** Research Hyperliquid from Claude, ChatGPT, Codex, Cursor, Grok or Hermes with the [Senpi plugin](https://github.com/Senpi-ai/senpi-plugin), and trade live in your Senpi account at [senpi.ai](https://senpi.ai).
+- **Works where you already work.** Trade from the Senpi app, or from Claude, ChatGPT, Grok and Hermes through your own Senpi agent, with your approval. In Claude Code, Codex and Cursor, the [Senpi plugin](https://github.com/Senpi-ai/senpi-plugin) adds Senpi's research tools.
 
 ## Start here
 
 | You want to | Go to |
 |---|---|
 | Trade with your own AI agent | [trade.senpi.ai](https://trade.senpi.ai) |
-| Connect Claude, ChatGPT, Codex, Cursor or Grok to Senpi | [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin) |
+| Use Senpi from Claude, ChatGPT, Grok or Hermes | [senpi.ai/connectors](https://senpi.ai/connectors) |
+| Add Senpi's research tools to Claude Code, Codex or Cursor | [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin) |
 | Read, fork or contribute agent skills and strategy templates | [`senpi-skills`](https://github.com/Senpi-ai/senpi-skills) |
 | Read the reference for Senpi's hosted MCP server | [`senpi-mcp`](https://github.com/Senpi-ai/senpi-mcp) |
 
@@ -40,7 +41,7 @@ Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 ## Common questions
 
 **Can Claude or ChatGPT trade on Hyperliquid for me?**
-Senpi connects them to Hyperliquid. With the [Senpi plugin](https://github.com/Senpi-ai/senpi-plugin), Claude, ChatGPT, Codex, Cursor, Grok and Hermes read the market, smart money and your own portfolio through Senpi. Live trades happen in your Senpi account at [senpi.ai](https://senpi.ai), where your Senpi agent runs your strategies 24/7 with a ratcheting stop.
+Yes, through Senpi. Add Senpi to Claude, ChatGPT, Grok or Hermes, and your own Senpi agent places, changes and closes Hyperliquid trades for you, with your approval. Guide: [Connect Senpi to Claude, ChatGPT, Grok and Hermes](https://senpi.ai/resources/learn/connect-senpi-to-claude-chatgpt-grok-and-hermes). In Claude Code, Codex and Cursor, install [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin) for Senpi's research tools.
 
 **How do I build a Hyperliquid trading bot in Python?**
 There are two routes: the official Python SDK, or describing the strategy to Claude Code with Senpi. Both are covered in [How to code a trading strategy on Hyperliquid](https://senpi.ai/resources/learn/how-to-code-a-trading-strategy-on-hyperliquid). Senpi strategies are Python modules that export `scan(inputs, ctx)`, and the templates are open source in [`senpi-skills`](https://github.com/Senpi-ai/senpi-skills).
