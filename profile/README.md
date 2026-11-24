@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://senpi.ai"><img src="../assets/senpi-github-banner.png" alt="Senpi - your AI quant for Hyperliquid" width="100%"/></a>
+  <a href="https://senpi.ai"><img src="../assets/senpi-github-banner.png" alt="Senpi: Your AI Quant. Simulates thousands of strategies. Runs the winners live." width="100%"/></a>
 
   <p>
     <a href="https://senpi.ai"><b>senpi.ai</b></a> ·
@@ -13,10 +13,11 @@
 
 ## What is Senpi?
 
-**Senpi is a non-custodial AI trading agent for Hyperliquid.** Your agent reads the market, codes your strategy and runs it 24/7 on Hyperliquid perps: crypto, stocks, indices, commodities and pre-IPO markets.
+**Senpi is a non-custodial AI trading agent for Hyperliquid.** Your agent simulates thousands of strategies and runs the winners live, 24/7, on Hyperliquid perps: crypto, stocks, indices, commodities and pre-IPO markets.
 
 Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 
+- **Simulates first.** Test strategy ideas as simulations on virtual money, rank the results, and run the winners live.
 - **Fixes your leaks.** Paste any Hyperliquid wallet. Your AI quant reads every fill and ranks what cost you most: late exits, oversized losers, fee drag.
 - **Codes your strategy.** Describe a trade in plain English, or start from a [strategy template](https://senpi.ai/strategies). Senpi codes it and runs it 24/7 with a ratcheting stop.
 - **Follows the smart money.** Senpi tracks Hyperliquid's proven traders (wallets with $1M+ in realized profit) and its biggest whales, around the clock.
