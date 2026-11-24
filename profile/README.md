@@ -3,7 +3,9 @@
 
   <p>
     <a href="https://senpi.ai"><b>senpi.ai</b></a> ·
-    <a href="https://trade.senpi.ai">Open the app</a> ·
+    <a href="https://senpi.ai/strategies">Strategies</a> ·
+    <a href="https://senpi.ai/traders">Traders</a> ·
+    <a href="https://senpi.ai/assets">Assets</a> ·
     <a href="https://senpi.ai/resources">Docs and guides</a> ·
     <a href="https://x.com/senpi_ai">X</a> ·
     <a href="https://www.youtube.com/@Senpi-AI">YouTube</a> ·
@@ -27,8 +29,8 @@ Senpi is built by Senpi AI Inc. (Austin, TX). It is not the SenPi learning app.
 
 | You want to | Go to |
 |---|---|
-| Trade with your own AI agent | [trade.senpi.ai](https://trade.senpi.ai) |
-| Use Senpi from Claude, ChatGPT, Grok or Hermes | [senpi.ai/connectors](https://senpi.ai/connectors) |
+| Trade with your own AI agent, from Claude, ChatGPT, Grok or Hermes | [senpi.ai/connectors](https://senpi.ai/connectors) |
+| Start from a strategy template | [senpi.ai/strategies](https://senpi.ai/strategies) |
 | Add Senpi's research tools to Claude Code, Codex or Cursor | [`senpi-plugin`](https://github.com/Senpi-ai/senpi-plugin) |
 | Read, fork or contribute agent skills and strategy templates | [`senpi-skills`](https://github.com/Senpi-ai/senpi-skills) |
 | Read the reference for Senpi's hosted MCP server | [`senpi-mcp`](https://github.com/Senpi-ai/senpi-mcp) |
@@ -64,7 +66,7 @@ Senpi has a free trial and paid plans with 0% Senpi trading fees. Current plans 
 
 ## Official links
 
-Senpi's official sites are **senpi.ai** and its subdomains, such as **trade.senpi.ai**. Our code lives at **github.com/Senpi-ai**. Look-alike sites such as senpia.ai are not Senpi. To report a security problem, see [SECURITY.md](https://github.com/Senpi-ai/.github/blob/main/SECURITY.md).
+Senpi's official sites are **senpi.ai** and its subdomains, such as **mcp.senpi.ai**. Our code lives at **github.com/Senpi-ai**. Look-alike sites such as senpia.ai are not Senpi. To report a security problem, see [SECURITY.md](https://github.com/Senpi-ai/.github/blob/main/SECURITY.md).
 
 - Guides for people and AI agents: [senpi.ai/resources/llms.txt](https://senpi.ai/resources/llms.txt)
 - Compare Senpi with other Hyperliquid tools: [senpi.ai/resources/compare](https://senpi.ai/resources/compare)
